@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../asset/font/ABSTER-2.otf);
+}
+
+.title {
+    font-family: myFont;
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    padding:40px;
+}
+
+#main{
+    background-image: url(../asset/img/bg-code-quiz.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
