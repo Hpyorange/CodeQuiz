@@ -9,17 +9,182 @@
     src: url(../font/ABSTER-2.otf);
 }
 
+html{
+    font-size: 18px; 
+
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
 .title {
     font-family: myFont;
     text-align: center;
-    font-size: 60px;
+    font-size: 3rem;
     color: aliceblue;
-    padding:40px;
+    margin-bottom: 60px;
 }
 
 #main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(../img/bg-code-quiz.gif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    opacity: 0.95;
+    height: 60vh;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.cardHeader{
+    height: 10%;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    border-bottom: 1px solid #3616e6;
+}
+
+.vScore{
+    text-decoration: none;
+}
+
+.vScore:hover{
+    color: #8b00ff;
+}
+
+.content{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.text{
+    width: 80%;
+    margin:40px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.startBtn{
+    font-size: 1.3rem;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3616e6;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.startBtn:hover{
+    background-color: #8b00ff;
+}
+
+.qText{
+    width: 84%;
+    margin-bottom: 10%;
+}
+
+.btn{
+    font-size: 1.3rem;
+    width: 16vw;
+    padding: 20px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3616e6;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: #8b00ff;
+}
+
+
+
+.footer{
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.answers{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.eqTitle{
+    margin-bottom: 20px;
+}
+
+.eqText{
+    font-size: 1.5rem;
+    color: #8b00ff;
+    margin-bottom: 20px;
+}
+
+.initial{
+    display: flex;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.textField{
+    padding: 0 8px;
+    border-radius: 8px;
+    border: 1px solid #8b00ff;
+}
+
+.submitBtn{
+    padding: 10px 40px ;
+    font-size: 1.3rem;
+    background-color: #3616e6;
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: #8b00ff;
+}
+
+.scoreText{
+    margin-bottom: 20px;
+}
+
+
+.scoreField{
+    margin: 2px;
+    padding: 4px 10px;
+    font-size: 1.5rem;
+    width: 60%;
+    background-color: rgb(191, 250, 230);
+}
+
+.btnC{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
